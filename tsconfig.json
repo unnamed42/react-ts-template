@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    // basic
+    "jsx": "react",
+
+    // module resolution
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2020",
+    "module": "esnext",
+
+    // code checking
+    "strict": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "allowUnreachableCode": false,
+    "skipLibCheck": true,
+
+    // emissions
+    "removeComments": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // decorator
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "outDir": "./dist/",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "lib": [
+      "dom",
+      "esnext"
+    ]
+  },
+  "files": [
+    "module.d.ts"
+  ],
+  "include": [
+    "scripts/*.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "public"
+  ]
+}
