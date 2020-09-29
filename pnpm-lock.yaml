@@ -10,7 +10,6 @@ dependencies:
   redux: 4.0.5
 devDependencies:
   '@babel/core': 7.11.6
-  '@babel/plugin-proposal-class-properties': 7.10.4_@babel+core@7.11.6
   '@babel/plugin-proposal-decorators': 7.10.5_@babel+core@7.11.6
   '@babel/plugin-transform-runtime': 7.11.5_@babel+core@7.11.6
   '@babel/preset-env': 7.11.5_@babel+core@7.11.6
@@ -8636,7 +8635,6 @@ packages:
       integrity: sha512-AX3Zw5iPruN5ie6xGRIDgqkT+ZhnRlZMLMHAs8tg7nRruy2Nb+i5o9bwghAogtM08q1dpr2LVoS8KSTMYpWXUw==
 specifiers:
   '@babel/core': ^7.11.6
-  '@babel/plugin-proposal-class-properties': ^7.10.4
   '@babel/plugin-proposal-decorators': ^7.10.5
   '@babel/plugin-transform-runtime': ^7.11.5
   '@babel/preset-env': ^7.11.5
